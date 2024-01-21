@@ -2,9 +2,10 @@
   "name": "zoo",
   "version": "1.0.0",
   "description": "Zoo challenge",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "speak": "node dist/main.js"
   },
   "keywords": [],
   "author": "Juan Ignacio Viglianco",

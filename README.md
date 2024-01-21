@@ -30,7 +30,7 @@ class model you like) with attention to code structure and readability.
 2. Navigate to the project directory:
 
     ```bash
-        cd Zoo
+        cd Zoo-challenge
 3. Install dependencies:
 
     ```bash
@@ -40,12 +40,20 @@ class model you like) with attention to code structure and readability.
 
     ```bash
         npx tsc
-2. Run the compiled JavaScript file:
+2. Run the command:
 
     ```bash
-        node dist/index.js
+        npm run speak
+
+### Testing
+1. Run the command:
+
+    ```bash
+        npm run test
 ### Project Structure
+- `__tests__`: Contains test files.
 - `src/`: Contains TypeScript source files.
 - `dist/`: Contains compiled JavaScript files.
 - `package.json`: Node.js project configuration.
 - `tsconfig.json`: TypeScript compiler configuration.
+- `jest.config.ts`: Jest configuration.
