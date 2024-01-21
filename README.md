@@ -26,30 +26,29 @@ class model you like) with attention to code structure and readability.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/zoo-project.git
+   git clone https://github.com/jiviglianco/Zoo-challenge
 2. Navigate to the project directory:
 
     ```bash
-        cd Zoo-challenge
+    cd Zoo-challenge
 3. Install dependencies:
 
     ```bash
-        npm install
+    npm install
 ### Usage
 1. Compile TypeScript code:
 
     ```bash
-        npx tsc
+    npm run build
 2. Run the command:
 
     ```bash
-        npm run speak
-
+    npm run speak
 ### Testing
 1. Run the command:
 
     ```bash
-        npm run test
+    npm run test
 ### Project Structure
 - `__tests__`: Contains test files.
 - `src/`: Contains TypeScript source files.
